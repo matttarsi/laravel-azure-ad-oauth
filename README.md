@@ -1,5 +1,12 @@
 # Laravel Socialite Azure Active Directory Plugin
 
+Forked to add the tenant ID.
+
+Add the tenant ID to your .env file. Defaults to 'common'
+
+```
+AZURE_AD_TENANT_ID=XXXX
+```
 ## Installation
 
 `composer require metrogistics/laravel-azure-ad-oauth`
